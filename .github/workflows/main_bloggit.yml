@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'bloggit'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57AD1F34ABCA44B4B9D9D7BDA7411ECA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B4A14310815490FA41D66EDA1DEEA35 }}
           package: .
