@@ -29,7 +29,7 @@ async function bootstrap() {
   // Set prefix
   app.setGlobalPrefix('api');
 
-  const port = configService.get('PORT');
+  const port = configService.get('PORT') || 5000;
 
   await app.listen(port);
   console.log(`Application is running on: ${await app.getUrl()}`);
